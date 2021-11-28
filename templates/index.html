@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEFOOD</title>
+    <style>
+        body {
+            margin: 0 auto;
+            max-width: 50em;
+            font-family: sans-serif;
+            line-height: 1.5;
+            padding: 4em 1em;
+            color: #555;
+        }   
+        h2,h1 {
+        margin-top: 1em;
+        padding-top: 1em;
+        color: #333;
+        }
+        a {
+        color: #e81c4f;
+        }
+      img {
+            height: auto;
+            max-width: 100%;
+             }
+    </style>
+    <img src="static\uploads\text.gif" alt="gif">
+    <!-- <img src="static\uploads\pytorch-logo.png" alt="PyTorch" width="100" height="100"> -->
+    <img src="static\uploads\Pytorch_logo2.png" alt="PyTorch" width="318" height="78" align="right">
+    
+</head>
+<body>
+    <h2>A hot-dog classifier</h2>
+    
+    <p>To classify whether food in the picture is a hotdog or not. Based on the app seefood in <a href="https://www.youtube.com/watch?v=vIci3C4JkL0">HBO's Silicon Valley</a> 
+    <br> To make this I used a pre-trained <b>Densenet121</b> model and applied transfer learning with the help of GPUs in cloud to fine tune the model to the hot-dogs dataset. This was made using <b>PyTorch</b> with <b>Python</b></p>
+    <p>Source code in <a href="https://github.com/vinayakj02/SEEFOOD-classifier">github</a></p>
+    <hr />
+    <form method="POST" action="" enctype="multipart/form-data">
+        <p><input type="file" name="file"></p>
+        <p><input type="submit" value="Upload"></p>
+    </form>
+
+</body>
+</html>
