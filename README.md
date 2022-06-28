@@ -15,22 +15,22 @@ To classify whether food in the picture is a hotdog or not. Based on the app [se
 
 ## Run locally 
 
-#### clone the repo
+#### Clone the repo
 ```
 git clone https://github.com/vinayakj02/SEEFOOD-classifier.git
 ```
 
-#### change the working directory to SEEFOOD-classifier
+#### Change the working directory to SEEFOOD-classifier
 ```
 cd SEEFOOD-classifier
 ```
 
-#### install the requirements
+#### Install the requirements
 ```
 python3 -m pip install -r requirements.txt
 ```
 
-#### start the server
+#### Start the server
 ```
 python3 app.py
 ```
