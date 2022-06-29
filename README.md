@@ -3,7 +3,7 @@
 
 To classify whether food in the picture is a hotdog or not. Based on the app [seefood in HBO's Silicon Valley ](https://www.youtube.com/watch?v=vIci3C4JkL0). To make this I used a pre-trained <b>Densenet121</b> model and applied transfer learning with the help of GPUs in cloud to fine tune the model to the hot-dogs dataset. This was made using <b>PyTorch</b> with <b>Python</b>. Made into a web application with <b>Flask</b> </p> 
 
-### Demo : [Gradio demo](https://thawing-castle-09965.herokuapp.com/)
+### Demo : [Gradio demo](https://seefood-nothotdog.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/74676945/176158998-adc45798-1a54-43d3-8155-ded6f093c289.png)
 
 ## Model 
