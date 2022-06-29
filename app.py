@@ -36,5 +36,5 @@ article="<p style='text-align: center'><a href='https://github.com/vinayakj02/SE
 gr.Interface(fn=get_prediction, 
              inputs="image",
              outputs="label",
-             examples=["burger_1.jpg", "hotdog1.jpg", "pizza.jpg", "cream.jpg"],
+             examples=["examples/fries.jpg", "examples/hotdog1.jpg", "examples/pizza.jpg", "examples/cream.jpg"],
              title=title,description=description,article=article,).launch(server_name="0.0.0.0", server_port=7000)
