@@ -37,4 +37,4 @@ gr.Interface(fn=get_prediction,
              inputs="image",
              outputs="label",
              examples=["burger_1.jpg", "hotdog1.jpg", "pizza.jpg", "cream.jpg"],
-             title=title,description=description,article=article,).launch(debug=True)
+             title=title,description=description,article=article,).launch(server_name="0.0.0.0", server_port=7000)
