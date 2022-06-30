@@ -34,3 +34,29 @@ python3 -m pip install -r requirements.txt
 ```
 python3 app.py
 ```
+
+## Run with docker 
+
+#### Clone the repo
+```
+git clone https://github.com/vinayakj02/SEEFOOD-classifier.git
+```
+
+#### Change the working directory to SEEFOOD-classifier
+```
+cd SEEFOOD-classifier
+```
+
+#### Build the image
+```
+sudo docker build -t seefood .
+```
+
+#### Run the container
+```
+sudo docker run -it -d -p 7000:7000  seefood
+```
+<br>
+
+Visit [localhost:7000](http://localhost:7000/) to view the site. 
+
